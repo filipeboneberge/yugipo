@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./images/background.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* h1{
+    font-size: 50px;
+    font-weight: bold;
+} */
+
+#logo{
+    width: 300px;
+}
+
+.buttons{
+    margin: 30px 0;
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+#rock {
+    border: #2a406f solid 5px;
+    background-color: #985dd1;
+    border-radius: 5px;
+}
+
+#paper {
+    border: #363d4d solid 5px;
+    background-color: #d8aa6b;
+    border-radius: 5px;
+}
+
+#scissors {
+    border: #252d40 solid 5px;
+    background-color: #3b9d9c;
+    border-radius: 5px;
+}
+
+
+.result {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#player-result {
+    width: 200px;
+}
+
+#machine-result {
+    width: 200px;
+}
+
+.score, .result-player, .machine-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.score-player, .result-player{
+    color: #2020fe;
+}
+
+.score-machine, .machine-title{
+    color: #df2828;
+}
+
+
+
+
+/*RESPONSIVO */
+
+@media (max-width: 500px) {
+    .container{
+        background-color: transparent;
+    }
+    
+    #logo{
+        width: 220px;
+    }
+    .results{
+        background-color: #fff;
+        padding: 10px;
+    }
+    /* h1{
+        background-color: #fff;
+        padding: 5px;
+    } */
+    #player-result{
+        width: 160px;
+    }
+
+    #machine-result{
+        width: 160px;
+    }
+}
