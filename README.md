@@ -1,5 +1,5 @@
 <img src="https://github.com/filipeboneberge/yugipo/blob/master/images/logo.jpg">
-<h1> <a href="#">Yu-Gi-Pô 🔗</a> </h1>
+<h1> <a href="https://yugipo.netlify.app">Yu-Gi-Pô 🔗</a> </h1>
 Esse projeto foi inspirado no <b>anime Yu-Gi-Oh!</b> e no <b>jogo Jokenpô(Pedra - Papel - Tesoura). </b>
 Jogo online com pontuação e a cada 3 segundos automaticamente as cartas desviram.
 
